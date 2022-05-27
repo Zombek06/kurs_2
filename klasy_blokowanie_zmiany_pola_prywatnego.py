@@ -1,7 +1,7 @@
 # Przedefiniowując metodę setattr możemy zmienić zachowanie Pythona
 # w zakresie ustawiana atrybutów.
 # Możemy np. zabronić ustawiania niektórych atrybutów, albo stworzyć klasę niemutowalną.
-
+# TEST
 class C:
   def __init__(self, imie, nazwisko):
      self.imie = imie
